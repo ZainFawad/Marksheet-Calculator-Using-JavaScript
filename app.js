@@ -1,0 +1,13 @@
+console.log("Marksheet Calculator")
+var number1 = +prompt("Enter marks of English")
+var number2 = +prompt("Enter marks of Urdu")
+var number3 = +prompt("Enter marks of Islamiat")
+var number4 = +prompt("Enter marks of Computer Science")
+var number5 = +prompt("Enter marks of Mathematics")
+console.log("Marks of English          =>" , number1)
+console.log("Marks of Urdu             =>" , number2)
+console.log("Marks of Islamiat         =>" , number3)
+console.log("Marks of Computer Science =>" , number4)
+console.log("Marks of Mathematics      =>" , number5)
+var ObtainedMarks = number1 + number2 + number3 + number4 + number5
+console.log("Marks Obtained            =>" , ObtainedMarks)
